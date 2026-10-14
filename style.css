@@ -217,3 +217,54 @@
   border-radius:12px;
   margin-left: -5%;
 }
+
+/* Week Reflection 分隔样式 */
+.week-reflection-list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.week-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.week-number {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: var(--wine);
+  letter-spacing: 0.05em;
+  margin:0 0 12px 0;
+}
+
+.week-divider {
+  display: flex;
+  align-items: center;
+  gap:14px;
+  margin-bottom:18px;
+}
+
+.week-dot {
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  background: var(--wine);
+  flex-shrink:0;
+}
+
+.week-line {
+  flex:1;
+  height:1px;
+  background: var(--wine);
+  opacity:0.6;
+}
+
+.week-content p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--ink);
+}
+
