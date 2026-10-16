@@ -20,6 +20,7 @@
      color: var(--ink);
      font-family: "DM Sans", sans-serif;
      line-height: 1.7;
+     background-color: #f5f0e8;
  }
  a {
      color: inherit;
@@ -267,6 +268,7 @@
   line-height: 1.8;
   color: var(--ink);
 }
+/* Week板块图片样式 */
 .week-img-group{
   margin-top:24px;
   display: grid;
@@ -275,15 +277,15 @@
 }
 .week-img{
   width:100%;
-  border:1px solid var(--wine); /* 和页面统一的酒红色细边框 */
-  border-radius:6px;
-  padding:6px;
-  background:#fff;
+  border: 5px solid #b08e8e;
+  border-radius:8px;
+  padding:4px;
+  background:#ffffff;
 }
+
+
 @media(max-width:768px){
   .week-img-group{
     grid-template-columns:1fr;
   }
 }
-
-
