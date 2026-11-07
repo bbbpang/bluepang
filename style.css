@@ -289,7 +289,70 @@
     grid-template-columns:1fr;
   }
 }
-
-.week-img-group.single‑img {
-  grid-template-columns: 1fr;
+.week-item.open-state {
+  background-color: #f7f7f5;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
 }
+
+
+.week-number {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: opacity 0.25s ease;
+}
+.week-number:hover {
+  opacity: 0.7;
+}
+.arrow {
+  display: inline-block;
+  font-size: 1.1em;
+  transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.week-img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease;
+}
+.week-img:hover {
+  transform: translateY(-3px);
+}
+
+.week-content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  /* 两个动画分开时长：高度慢一点，淡入稍微晚一点 */
+  transition: max-height 0.5s ease, opacity 0.35s ease 0.1s;
+}
+.week-content.open {
+  max-height: 3000px;
+  opacity: 1;
+  transition: max-height 0.5s ease, opacity 0.35s ease;
+}
+
+.week-content p {
+  line-height: 1.75;
+  color: #383838;
+}
+.ref-title {
+  margin-top: 2.2rem !important;
+  margin-bottom: 1rem !important;
+  font-family: "Playfair Display", "Georgia", serif !important;
+  font-size: 1.8rem !important;
+  font-weight: 700 !important;
+  font-style: italic !important;
+  letter-spacing: 0.06em !important;
+  color: #1a1a1a !important;
+  padding-bottom: 8px !important;
+  border-bottom: 1px solid #d3d3cd !important;
+}
+.ref-text {
+  margin-top: 0 !important;
+  color: #444444 !important;
+  line-height: 1.75 !important;
+  padding-left: 22px !important;
+}
+
