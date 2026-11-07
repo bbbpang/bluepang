@@ -9,8 +9,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+
 </head>
 <body>
+  
   <header class="site-header">
     <a class="logo" href="#home">A Year in Between<span>✳</span></a>
     <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
@@ -36,39 +42,63 @@
 
     <div class="week-reflection-list">
       <article class="week-item">
-        <h3 class="week-number">Week 1</h3>
+        <h3 class="week-number" onclick="toggleWeek(this)">Week 1 <span class="arrow">›</span></h3>
         <div class="week-divider">
           <span class="week-dot"></span>
           <span class="week-line"></span>
         </div>
         <div class="week-content">
-          <p>In Week 1, our tutor gave us an introduction to this course. I got familiar with the campus environment and classroom atmosphere. I am eager to work hard and learn everything well in this digital‑media subject.
+          <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:1.4rem;font-style:italic;letter-spacing:0.04em;color:#222;margin-bottom:1.2rem;">Digital Media: A New Start</h4>
+
+          <p>In Week 1, our tutor gave us an introduction to the course, including what we would learn and the activities we would complete in the following weeks. As this was one of my first classes at the university, I was still getting familiar with the campus environment and classroom atmosphere. I felt a little nervous at first, but I was also excited to start a new learning experience.
+
+During the introduction, I began to realise that digital media is not just about using social media or digital technologies in everyday life. There are also many interesting questions about how these technologies work and how they influence our society. I am particularly interested in learning more about the relationship between digital platforms, data and users.
+
+I hope this course will help me develop both practical skills and a more critical understanding of digital media. Although I am not sure what challenges I might face in the following weeks, I am looking forward to learning new things and applying them to my own projects.
+        </div>
+      </article>
+
+      <article class="week-item">
+        <h3 class="week-number" onclick="toggleWeek(this)">Week 2 <span class="arrow">›</span></h3>
+        <div class="week-divider">
+          <span class="week-dot"></span>
+          <span class="week-line"></span>
+        </div>
+        <div class="week-content">
+          <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:1.4rem;font-style:italic;letter-spacing:0.04em;color:#222;margin-bottom:1.2rem;">Webpages, Code and Content</h4>
+
+          <p>During Week 2, our tutor covered the basics of webpage building, HTML and CSS. While I have some knowledge of web development that I gained during my undergraduate study, this tutorial served as a good recap. This week I decided to use the skills I learned to create a personal website. My goal is to build a website in the form of a diary in which I would document my experiences while studying in another country.</p>
+
+          <p>Another thing that made me interested in building my own website was reading Gillespie (2013) article The Relevance of Algorithms. In his work, the author talks about how algorithms may affect the visibility and arrangement of information on digital platforms. This reading made me understand that digital platforms are not only neutral platforms where people publish their content. At the same time, the technical nature of digital platforms affects what kind of information users see online.</p>
+
+<p>Despite the difference between the development of a website and an algorithmic platform, this reading made me more interested in the relation between technology and content presentation. Meanwhile, I plan to build this website as a diary to record all my experiences throughout one year of study abroad.</p>
+       <p style="font-family:'Playfair Display',Georgia,serif;font-size:1.8rem;font-style:italic;font-weight:700;letter-spacing:0.06em;color:#1a1a1a;margin-top:2.2rem;margin-bottom:1rem;padding-bottom:8px;border-bottom:1px solid #d3d3cd;">Reference</p>
+<p style="color:#444;line-height:1.75;padding-left:22px;">
+  <i>Gillespie, T. (2013). The relevance of algorithms. In T. Gillespie, P. Boczkowski & K. Foot (Eds.), Media technologies: Essays on communication, materiality, and society (pp. 167–182). MIT Press.</i>
 </p>
-        </div>
+
+</div>
       </article>
 
       <article class="week-item">
-        <h3 class="week-number">Week 2</h3>
-        <div class="week-divider">
-          <span class="week-dot"></span>
-          <span class="week-line"></span>
-        </div>
-        <div class="week-content">
-          <p>In Week 2, our tutor introduced the fundamentals of webpage creation. I learned these basic web techniques during my undergraduate studies, so this session worked as a useful review for me. Meanwhile, I plan to build this website as a diary to record all my experiences throughout one year of study abroad.</p>
-        </div>
-      </article>
-
-      <article class="week-item">
-  <h3 class="week-number">Week 3</h3>
+  <h3 class="week-number" onclick="toggleWeek(this)">Week 3 <span class="arrow">›</span></h3>
   <div class="week-divider">
     <span class="week-dot"></span>
     <span class="week-line"></span>
   </div>
   <div class="week-content">
-   <p>In Week 3, we learned the basic concepts of web scraping. Our tutor introduced two tools: Web Scraper and Python. I understood what web scraping is for — it helps collect useful data from websites. We started with simple tutorials first, then tried manual practice by ourselves. The basic operations felt approachable. I hope I can keep up with the following classes and learn more advanced knowledge.</p>
-   <p>I have learned that the Internet is not just a place to browse information. Behind every webpage lies massive data collection and transmission. Websites can record user behaviours, and data can be automatically gathered through tools like web scrapers.
+   <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:1.4rem;font-style:italic;letter-spacing:0.04em;color:#222;margin-bottom:1.2rem;">Scraping, Data and Ethics</h4>
 
-Yes, it has challenged my previous understanding. I used to think I could freely view online content without leaving traces. Now I realise every click and browse may generate data. While data brings convenience, we must think carefully about privacy and ethics when accessing online information.</p>
+    <p>In Week 3, we learned the basic concepts of web scraping. Our tutor introduced two tools: Web Scraper and Python. We started with simple tutorials and then tried some exercises by ourselves. For my practice, I chose a website containing book information and used Web Scraper to collect data such as book titles and prices. I was surprised to see how quickly the information could be organised into an Excel spreadsheet. The basic operations were easier than I expected, and I became more interested in how web scraping works.</p>
+
+<p>Venturini and Rogers' (2025) reading of this week presented web scraping as one of the digital research methods and described some of the technical, legal and ethical challenges. It made me think about the difference between the possibility of collecting data and its interpretation. While it was rather easy for me to collect the book names and prices as the information was openly presented on the website, I started wondering about other information that might be missing in the dataset. So I could easily extract the prices of the books, but at the same time, I did not have any information on how and under which conditions these prices were chosen and how they might change over time.</p>
+   <p>Therefore, the use of web scraping provides some useful information; however, it does not give a complete picture. Also, the reading of this week made me reflect on the issue of responsibilities during the process of collecting the information. Before this class, I thought that the main challenge of working with the information on websites was its extraction. Currently, I understand that it is important to consider not only the opportunity to collect the data but also the necessity to collect it and possible consequences of it. Sometimes, even if the information is publicly available, there may be many questions related to privacy, consent, etc. I had not been concerned about this issue before, but now I can see why it is important for digital research.</p>
+   <p>Overall, this week has made me reconsider the way I look at online information. Previously, I saw the Internet mostly as an informative space where you can just browse the information. But now, I begin to understand how the information could be transformed into the data that could be used further. Besides, as I can see now, learning a new technological skill means not only knowing how to use the tool but also being aware of its limitations.</p>
+   <p style="font-family:'Playfair Display',Georgia,serif;font-size:1.8rem;font-style:italic;font-weight:700;letter-spacing:0.06em;color:#1a1a1a;margin-top:2.2rem;margin-bottom:1rem;padding-bottom:8px;border-bottom:1px solid #d3d3cd;">Reference</p>
+<p style="color:#444;line-height:1.75;padding-left:22px;">
+  <i>Venturini, T., & Rogers, R. (2025). Digital Methods: A Short Introduction. Polity Press.</i>
+</p>
+
    <div class="week-img-group">
   <img class="week-img" src="截屏2026-10-16 16.21.33.png" alt="Web scraper practice screenshot">
   <img class="week-img" src="截屏2026-10-16 16.21.47.png" alt="Python scraping notes">
@@ -78,49 +108,59 @@ Yes, it has challenged my previous understanding. I used to think I could freely
 </article>
 
 <article class="week-item">
-  <h3 class="week-number">Week 4</h3>
+  <h3 class="week-number" onclick="toggleWeek(this)">Week 4 <span class="arrow">›</span></h3>
   <div class="week-divider">
     <span class="week-dot"></span>
     <span class="week-line"></span>
   </div>
   <div class="week-content">
-    <p>In Week 4, our tutor guided us through detailed concepts of research data. Our group started from the broad topic of artificial intelligence, then gradually narrowed it down to our final research focus: generative‑AI experiences among UK university humanities and arts students on Reddit. After defining the theme, each group member took part in data collection, and later we combined all our gathered materials together for coding and analysis.</p>
+    <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:1.4rem;font-style:italic;letter-spacing:0.04em;color:#222;margin-bottom:1.2rem;">Categorising Data and Research Bias</h4>
 
-    <p>Through completing the lecture questions, I learned the whole process of turning real social media discussions into analysable data. We designed a research question about how generative AI is used in humanities and arts courses, built a coding framework with clear categories, and converted open‑ended Reddit posts into numerical codes in Excel. This helped me understand how content analysis turns qualitative discussions into quantifiable patterns.</p>
+    <p>In the Week 4 tutorial, we were introduced to the concept of research data. As our group chose artificial intelligence as the topic of interest, we had to narrow it to specific generative AI experiences of UK university humanities and arts students on Reddit. Having agreed on the topic, each group member collected the necessary posts, and our research team combined all collected data for further analysis and coding.</p>
+
+    <p>During the activity, I understood that the information shared on social media can be converted into data. By identifying different categories of attitudes and experiences and organising information in Excel, I became aware that people's opinions are not easy to categorise. Many posts included mixed opinions, making it hard to choose a category for such posts.</p>
 
     <p>During data collection, we noticed that many of the Reddit posts expressed negative opinions about AI. These posts also seemed to receive more attention, which may have influenced the data we collected.
 Additionally, some less visible or marginalised groups may be underrepresented in our dataset. As a result, it was challenging to collect a balanced range of perspectives and avoid potential bias.</p>
 
-    <p>This experience showed us that data is not completely neutral. Social media platforms can influence which opinions become more visible, while some marginalised groups may be underrepresented.
-
-As researchers, we also have the power to decide which data to collect and how to categorise it. These decisions can shape our findings and influence how people understand an issue.
-
-Therefore, we need to be aware of potential biases and recognise that data does not always represent everyone's experiences.</p>
-
-    <!-- Week4单张图片 -->
+    <p>I relate my experience to the idea from D'Ignazio and Klein's (2020) What Gets Counted Counts. When reading this source, I learned about the importance of decisions regarding what to count and how they impact the visibility of particular data. While deciding which Reddit posts to use in our research, we made decisions on how to categorise our data. Initially, I believed that coding was the process of organisation of information. However, during this activity, I became aware that our decisions could also influence the result of our research. If we classified one of students' opinions as negative, we might ignore his/her positive experiences with AI. Thus, numerical categories cannot represent complicated people's opinions.</p>
+<p>Furthermore, Crawford's (2021) discussion of data in artificial intelligence made me reflect on our research topic. Before this week, I perceived generative AI as an effective tool for completing tasks and conducting research. However, I learned that there are many broader questions related to sources of data used in AI technologies and relations of power that are involved in it. Therefore, discussing the experiences of students using AI technologies, I should also pay attention to the systems underlying the existence of these technologies.</p>
+    <p>While collecting data, we realised that many posts presented negative attitudes towards AI. Moreover, such posts received more attention on Reddit. Recalling this activity, I understood that the visibility of particular information and our selection decisions can influence the final results. The experiences of some students could not be reflected in our dataset.</p>
+<p>Overall, this week made me aware that data is not a neutral product. First of all, social media platforms can influence the information that becomes visible. Secondly, researchers also make decisions regarding what information to collect and how to classify it. Now I understand that creating a dataset involves not only organising information in Excel but also questioning the content of our data.</p>
+   
+<!-- Week4单张图片 -->
 <div class="week-img-group single‑img">
   <img class="week-img" src="截屏2026-10-29 15.55.38.png" alt="Reddit AI dataset coding screenshot">
 </div>
+<p style="font-family:'Playfair Display',Georgia,serif;font-size:1.8rem;font-style:italic;font-weight:700;letter-spacing:0.06em;color:#1a1a1a;margin-top:2.2rem;margin-bottom:1rem;padding-bottom:8px;border-bottom:1px solid #d3d3cd;">Reference</p>
+<p style="color:#444;line-height:1.75;padding-left:22px;">
+  <i>Crawford, K. (2021). Atlas of AI: Power, politics, and the planetary costs of artificial intelligence. Yale University Press.<br>
+  D'Ignazio, C., & Klein, L. F. (2020). Data feminism. MIT Press.</i>
+</p>
 
   </div>
 </article>
 
 <article class="week-item">
-  <h3 class="week-number">Week 5</h3>
+  <h3 class="week-number" onclick="toggleWeek(this)">Week 5 <span class="arrow">›</span></h3>
   <div class="week-divider">
     <span class="week-dot"></span>
     <span class="week-line"></span>
   </div>
   <div class="week-content">
-    <p>In Week 5, we focused on data visualisation based on our Reddit dataset about generative AI among UK humanities and arts students.</p>
+    <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:1.4rem;font-style:italic;letter-spacing:0.04em;color:#222;margin-bottom:1.2rem;">Visualising Data and Storytelling</h4>
 
-    <p>I have learned that imagining, categorising and collecting data are not just one‑off steps. Before collection, we need to think clearly about what questions we want to answer, which decides what information we should record. When we collect data for different purposes, our understanding of data shifts a lot. For example, if we only want to count how many people mention ChatGPT, we focus on frequency; but if we want to explore students’ attitudes, we have to pay attention to context and nuance in each post, rather than just simple numbers. Data is not neutral; the goal of our research shapes what we treat as valuable information.</p>
+    <p>This week, we worked further with our Reddit dataset of UK humanities and arts students' views of generative AI. The topic for the class was data visualisation. We talked about various types of data organisation and how to use different kinds of charts to present our research.
 
-    <p>We also faced ethical issues. Even though Reddit posts are publicly visible online, these are still personal opinions from students. We avoided sharing identifiable usernames and did not quote posts in a way that could trace back to the original writers. We also considered informed consent: users did not know their comments would be used for academic research, so we tried our best to protect their privacy and avoid misinterpreting their words.</p>
+During the session, I understood that the process of data collection and visualisation is closely related to each other. When collecting the data, we need to consider what questions we will try to answer. For instance, if we aim at counting how often students mention certain words, like ChatGPT, we do not need any additional information. In case we wish to identify students' attitudes to AI, we also need to consider their comments' context. It means that the aims of our study determine what data we collect and how to present it visually.</p>
 
-    <p>Visualising data brought new challenges. Given our limited sample size, we decided to use basic charts, including pie charts and bar charts, to present our findings. It was hard to balance simplicity and completeness. If we put too much information in one chart, it became messy; if we simplified too much, we might lose important context and mislead viewers. We also needed to make sure our visualisation did not exaggerate the findings because our sample size was limited.</p>
+    <p>his week's reading, Feigenbaum and Alamalhodaei (2020), Visual Data Storytelling raised my awareness regarding the importance of data interpretation and presentation. I started to see that when preparing a chart, we not only transfer the collected data from the spreadsheet to the visual image but also choose which aspects to emphasise and how to make this information understandable to other people. These aspects affect the interpretation of our results.</p>
 
-  
+    <p>Our group agreed to prepare simple visualisations of our data, including pie and bar charts. Since our dataset was not big, we chose to prepare relatively simple charts, which will be easy to read. However, at times, it is difficult to find a compromise between simplification of information and its full presentation. Pie charts, for instance, allow seeing the percentage of students who have positive and negative attitudes to AI. However, this type of chart cannot provide an explanation why students think in such a way. At the same time, presenting all the information we obtained in a chart can create a mess of different aspects.</p>
+
+    <p>Reading this chapter raised the question about ethical issues in visualisation. Even if a chart looks attractive and logical, it does not guarantee the truthfulness of the information it provides. Our sample was small, and therefore, some students' experience might be missing. I believe that it is essential to inform about this problem and not to represent our findings as the opinions of all university students.</p>
+
+  <p>Overall, this week showed me that data visualisation is not only a technical skill but also a form of communication. Previously, I thought that a good chart should only be clear and eye-catching. Now, I understand that it should also be informative and accurate and give clear explanations about what it shows and what it does not show.</p>
     <div class="week-img-group">
       <img class="week-img" src="e56eb0e4932e171aac4388c5911e08b0.png" alt="Chart 1">
       <img class="week-img" src="9472eec1aba9f223bdef3c8b8998649f.png" alt="Chart 2">
@@ -128,6 +168,41 @@ Therefore, we need to be aware of potential biases and recognise that data does 
       <img class="week-img" src="3f957da1931df3207e9724ef76abb8d9.jpg" alt="Chart 4">
       <img class="week-img" src="180d863fcd36c6019fcf19bdf93d2db9.jpg" alt="Chart 5" style="grid-column: 1 / -1; max-width: 500px; margin: 0 auto;">
     </div>
+  <p style="font-family:'Playfair Display',Georgia,serif;font-size:1.8rem;font-style:italic;font-weight:700;letter-spacing:0.06em;color:#1a1a1a;margin-top:2.2rem;margin-bottom:1rem;padding-bottom:8px;border-bottom:1px solid #d3d3cd;">Reference</p>
+<p style="color:#444;line-height:1.75;padding-left:22px;">
+  <i>Feigenbaum, A., & Alamalhodaei, A. (2020). Visual data storytelling. In J. Gray & L. Bounegru (Eds.), The data journalism handbook (2nd ed., pp. 265–278). O’Reilly Media.</i>
+</p>
+
+  </div>
+</article>
+<article class="week-item">
+  <h3 class="week-number" onclick="toggleWeek(this)">Week 6 <span class="arrow">›</span></h3>
+  <div class="week-divider">
+    <span class="week-dot"></span>
+    <span class="week-line"></span>
+  </div>
+  <div class="week-content">
+    <h4 style="font-family:'Playfair Display',Georgia,serif;font-size:1.4rem;font-style:italic;letter-spacing:0.04em;color:#222;margin-bottom:1.2rem;">Algorithms, Data and Identity</h4>
+    <!-- 这里放你Week6的文字、图片代码 -->
+    <p>Week 6 was devoted to the exploration of the connection between algorithms, data, and identity. In the workshop, we selected Douyin as our social media platform and tried to find out how data about our online actions can be gathered and used to categorise us. This raised the question of the amount of information that social media platforms may have about their users.</p>
+
+    <p>As for the practical task, we examined 32 Douyin accounts and classified their 15 last posts according to the 13 categories provided by Sumpter (2018). We noted the outcomes of our analysis in the Excel table, including such categories as friends, lifestyle, and music, sport, film. First of all, I found this task relatively easy; however, later, I realized that some posts can belong to several categories, e.g. if a person shares a video where she or he spends some time with friends, this post may be considered both friends and lifestyle. But we should classify each post to just one of the mentioned categories. Thus, I got convinced that these categories cannot reflect the content of the posts entirely.</p>
+
+    <p>The book "We Are Data" by Cheney-Lippold (2017) has contributed to my understanding of algorithmic identity. Now, I know that the platforms can build identities of their users depending on their online activity; however, it is possible that such an identity will differ from real-life identity. The fact that we also had to construct the identity of some people basing on limited information made me understand this concept better.</p>
+
+    <p>I also got convinced in the limitations of the approach used by Sumpter (2018) while analysing the content of Douyin posts. Even though the division of posts into certain categories helped us organize our data and find any patterns, it was impossible to describe completely some posts using the suggested categories. Besides, it became clear that the 13 categories did not always reflect various ways of expression.</p>
+
+    <p>Thus, this week's workshop changed my attitude to social media data. Before this experience, I saw only entertainment in the posts, but now I understand that they may be regarded as information about the identity of someone. But people's life online cannot give all the information about them.</p>
+   
+    <!-- 如果要加图片，就和前面week3/4/5一样用 week-img-group -->
+    <div class="week-img-group">
+        <img class="week-img" src="截屏2026-11-07 08.50.18.png" alt="说明">
+    </div>
+   <p class="ref-title">Reference</p>
+    <p class="ref-text">
+      <i>Cheney-Lippold, J. (2017). We Are Data: Algorithms and the Making of Our Digital Selves. New York University Press.<br>
+      Sumpter, D. (2018). Outnumbered: From Facebook and Google to Fake News and Filter-bubbles – The Algorithms That Control Our Lives. Bloomsbury Press.</i>
+    </p>
   </div>
 </article>
 
@@ -159,6 +234,19 @@ Therefore, we need to be aware of potential biases and recognise that data does 
     <a href="#home" class="back-top">BACK TO TOP ↑</a>
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+    function toggleWeek(el) {
+      const content = el.nextElementSibling.nextElementSibling;
+      content.classList.toggle('open');
+      const arrow = el.querySelector('.arrow');
+      if(content.classList.contains('open')){
+        arrow.style.transform = 'rotate(90deg)';
+      }else{
+        arrow.style.transform = 'rotate(0deg)';
+      }
+    }
+  </script>
+</body>
+</html>
 </body>
 </html>
